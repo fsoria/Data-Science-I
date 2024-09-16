@@ -1,0 +1,43 @@
+1. AcceptedCmp1: Indica si el cliente aceptó la oferta de la primera campaña de marketing (1 para sí, 0 para no).
+2. AcceptedCmp2: Indica si el cliente aceptó la oferta de la segunda campaña de marketing (1 para sí, 0 para no).
+3. AcceptedCmp3: Indica si el cliente aceptó la oferta de la tercera campaña de marketing (1 para sí, 0 para no).
+4. AcceptedCmp4: Indica si el cliente aceptó la oferta de la cuarta campaña de marketing (1 para sí, 0 para no).
+5. AcceptedCmp5: Indica si el cliente aceptó la oferta de la quinta campaña de marketing (1 para sí, 0 para no).
+6. Response: Indica si el cliente respondió a la última campaña de marketing (1 para sí, 0 para no).
+
+Estas variables son fundamentales para evaluar la efectividad de cada campaña y la respuesta general de los clientes. Aquí hay una descripción más detallada del resto de las variables del dataset:
+
+Variables Generales
+
+ID: Identificación única del cliente.
+Year_Birth: Año de nacimiento del cliente.
+"Education: Nivel educativo del cliente (por ejemplo, ""Graduado"", ""Posgrado"", etc.)."
+"Marital_Status: Estado civil del cliente (por ejemplo, ""Soltero"", ""Casado"", etc.)."
+Income: Ingreso anual del cliente.
+Kidhome: Número de niños pequeños en el hogar.
+Teenhome: Número de adolescentes en el hogar.
+Dt_Customer: Fecha en la que el cliente se registró.
+Recency: Días desde la última compra del cliente.
+
+Variables de Compras
+
+MntWines: Gasto en vinos en los últimos dos años.
+MntFruits: Gasto en frutas en los últimos dos años.
+MntMeatProducts: Gasto en productos cárnicos en los últimos dos años.
+MntFishProducts: Gasto en productos de pescado en los últimos dos años.
+MntSweetProducts: Gasto en productos dulces en los últimos dos años.
+MntGoldProds: Gasto en productos dorados en los últimos dos años.
+
+Variables de Transacciones
+
+NumDealsPurchases: Número de compras con descuento realizadas.
+NumWebPurchases: Número de compras realizadas a través del sitio web.
+NumCatalogPurchases: Número de compras realizadas a través del catálogo.
+NumStorePurchases: Número de compras realizadas en la tienda física.
+NumWebVisitsMonth: Número de visitas al sitio web en el último mes.
+
+Otras Variables
+
+Complain: Indica si el cliente presentó una queja (1 para sí, 0 para no).
+Z_CostContact: Costo de contacto con el cliente.
+Z_Revenue: Ingreso generado por el cliente.
